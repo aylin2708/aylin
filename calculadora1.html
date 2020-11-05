@@ -51,7 +51,20 @@
 
 </table>
 
-<script src="funcionalidades.js"></script>
+<script src="funcionalidades.js">
+
+function literal() { 
+  var m = document.getElementById("calculadora").value;
+  var expreg = /([\d])/$;
+  
+  if(expreg.test(m))
+	alert(""); 
+  else 
+    alert("el valor ingresado no es correcto"); 
+} 
+
+</script>
+
 
 </body>
 </html>

@@ -1,60 +1,62 @@
 //Declaramos variables
-var operandoa;
-var operandob;
-var operacion;
+let operandoa;
+let operandob;
+let operacion;
 
 function init(){
     //variables
-    var resultado = document.getElementById('resultado');
-    var reset = document.getElementById('reset');
-    var suma = document.getElementById('suma');
-    var resta = document.getElementById('resta');
-    var multiplicacion = document.getElementById('multiplicacion');
-    var division = document.getElementById('division');
-    var igual = document.getElementById('igual');
-    var uno = document.getElementById('uno');
-    var dos = document.getElementById('dos');
-    var tres = document.getElementById('tres');
-    var cuatro = document.getElementById('cuatro');
-    var cinco = document.getElementById('cinco');
-    var seis = document.getElementById('seis');
-    var siete = document.getElementById('siete');
-    var ocho = document.getElementById('ocho');
-    var nueve = document.getElementById('nueve');
-    var cero = document.getElementById('cero');
+    let resultado = document.getElementById('resultado');
+    let reset = document.getElementById('reset');
+    let suma = document.getElementById('suma');
+    let resta = document.getElementById('resta');
+    let multiplicacion = document.getElementById('multiplicacion');
+    let division = document.getElementById('division');
+    let igual = document.getElementById('igual');
+    let uno = document.getElementById('uno');
+    let dos = document.getElementById('dos');
+    let tres = document.getElementById('tres');
+    let cuatro = document.getElementById('cuatro');
+    let cinco = document.getElementById('cinco');
+    let seis = document.getElementById('seis');
+    let siete = document.getElementById('siete');
+    let ocho = document.getElementById('ocho');
+    let nueve = document.getElementById('nueve');
+    let cero = document.getElementById('cero');
+    console.log("load init");
+    console.warn("load init");
   } 
 
 
   //Eventos de click
   uno.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "1";
+    resultado.textContent = resultado.textContent  + 1;
 }
 dos.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "2";
+    resultado.textContent = resultado.textContent  + 2;
 }
 tres.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "3";
+    resultado.textContent = resultado.textContent  + 3;
 }
 cuatro.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "4";
+    resultado.textContent = resultado.textContent  + 4;
 }
 cinco.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "5";
+    resultado.textContent = resultado.textContent  + 5;
 }
 seis.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "6";
+    resultado.textContent = resultado.textContent  + 6;
 }
 siete.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "7";
+    resultado.textContent = resultado.textContent  + 7;
 }
 ocho.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "8";
+    resultado.textContent = resultado.textContent  + 8;
 }
 nueve.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "9";
+    resultado.textContent = resultado.textContent  + 9;
 }
 cero.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "0";
+    resultado.textContent = resultado.textContent  + 0;
 }
 reset.onclick = function(e){
     resetear();
@@ -95,7 +97,7 @@ function limpiar(){
   } 
 
   function resolver(){
-    var res = 0;
+    let res = 0;
     switch(operacion){
       case "+":
         res = parseFloat(operandoa) + parseFloat(operandob);

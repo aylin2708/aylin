@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Calculadora con JavaScript</title>
+
 <link type="text/css" href="estilos.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -54,11 +55,11 @@
 <script src="funcionalidades.js">
 
 function literal() { 
-  var m = document.getElementById("calculadora").value;
-  var expreg = /([\d])/$;
+  let m = document.getElementById("calculadora").value;
+  let expreg = /([\d])/$;
   
   if(expreg.test(m))
-	alert(""); 
+	alert(); 
   else 
     alert("el valor ingresado no es correcto"); 
 } 

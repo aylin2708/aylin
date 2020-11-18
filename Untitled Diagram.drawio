@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T22:09:55.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7NvlHB3btOaQevPfGxl3" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T22:12:50.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="SYIbCniLqnSmf8l_0raN" version="13.10.0" type="github">
   <diagram id="WuMEOS3KuYvtFC7-3D6p" name="Page-1">
     <mxGraphModel dx="1935" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,6 +226,18 @@
         </mxCell>
         <mxCell id="hp8RESsKL1m1HcYj-RQ9-66" value="N" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="590" y="-280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hp8RESsKL1m1HcYj-RQ9-67" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-40" as="sourcePoint" />
+            <mxPoint x="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hp8RESsKL1m1HcYj-RQ9-68" value="Atributo foraneo" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="-10" width="55" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hp8RESsKL1m1HcYj-RQ9-69" value="Cod_asig2" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-10" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

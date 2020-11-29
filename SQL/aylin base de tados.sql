@@ -1,0 +1,1 @@
+SELECT * FROM prueba1.lab_dent;
